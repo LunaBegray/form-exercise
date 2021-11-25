@@ -9,15 +9,15 @@
 </head>
 <body>
     <p>enter your email</p>
-    <input class="email">
+    <input class="email" required type="email">
     <p>enter your country</p>
-    <input class="country">
+    <input class="country" required pattern="[Uu]nited [Ss]ates|[Ii]srael|[Jj]apan">
     <p>enter your zip code</p>
-    <input class="zipCode">
+    <input class="zipCode" required type="number" min="0" max="99999">
     <p> enter your password</p>
-    <input class="password">
+    <input class="password" required minLength ="6" maxLength="12"> 
     <p> confirm password bitch</p>
-    <input class="passwordConf">
+    <input class="passwordConf" required minLength ="6" maxLength="12">
     <div>
         <button class="submitBtn">Submit</button>
     </div>
